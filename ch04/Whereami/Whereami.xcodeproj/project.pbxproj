@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A480D90172F58220028A8FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480D8F172F58220028A8FF /* UIKit.framework */; };
+		5A480D92172F58220028A8FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480D91172F58220028A8FF /* Foundation.framework */; };
+		5A480D94172F58220028A8FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480D93172F58220028A8FF /* CoreGraphics.framework */; };
+		5A480D9A172F58220028A8FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A480D98172F58220028A8FF /* InfoPlist.strings */; };
+		5A480D9C172F58220028A8FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A480D9B172F58220028A8FF /* main.m */; };
+		5A480DA0172F58220028A8FF /* KCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A480D9F172F58220028A8FF /* KCAppDelegate.m */; };
+		5A480DA2172F58220028A8FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A480DA1172F58220028A8FF /* Default.png */; };
+		5A480DA4172F58220028A8FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A480DA3172F58220028A8FF /* Default@2x.png */; };
+		5A480DA6172F58220028A8FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A480DA5172F58220028A8FF /* Default-568h@2x.png */; };
+		5A480DA9172F58220028A8FF /* KCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A480DA8172F58220028A8FF /* KCViewController.m */; };
+		5A480DAC172F58220028A8FF /* KCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A480DAA172F58220028A8FF /* KCViewController.xib */; };
+		5A480DB3172F58A50028A8FF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480DB2172F58A50028A8FF /* CoreLocation.framework */; };
+		5A480DB5172F94FF0028A8FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A480DB4172F94FF0028A8FF /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A480D8C172F58220028A8FF /* Whereami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whereami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A480D8F172F58220028A8FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A480D91172F58220028A8FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A480D93172F58220028A8FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A480D97172F58220028A8FF /* Whereami-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Whereami-Info.plist"; sourceTree = "<group>"; };
+		5A480D99172F58220028A8FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A480D9B172F58220028A8FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A480D9D172F58220028A8FF /* Whereami-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whereami-Prefix.pch"; sourceTree = "<group>"; };
+		5A480D9E172F58220028A8FF /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCAppDelegate.h; sourceTree = "<group>"; };
+		5A480D9F172F58220028A8FF /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCAppDelegate.m; sourceTree = "<group>"; };
+		5A480DA1172F58220028A8FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5A480DA3172F58220028A8FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5A480DA5172F58220028A8FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5A480DA7172F58220028A8FF /* KCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCViewController.h; sourceTree = "<group>"; };
+		5A480DA8172F58220028A8FF /* KCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCViewController.m; sourceTree = "<group>"; };
+		5A480DAB172F58220028A8FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KCViewController.xib; sourceTree = "<group>"; };
+		5A480DB2172F58A50028A8FF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5A480DB4172F94FF0028A8FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A480D89172F58220028A8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A480DB5172F94FF0028A8FF /* MapKit.framework in Frameworks */,
+				5A480DB3172F58A50028A8FF /* CoreLocation.framework in Frameworks */,
+				5A480D90172F58220028A8FF /* UIKit.framework in Frameworks */,
+				5A480D92172F58220028A8FF /* Foundation.framework in Frameworks */,
+				5A480D94172F58220028A8FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A480D83172F58220028A8FF = {
+			isa = PBXGroup;
+			children = (
+				5A480D95172F58220028A8FF /* Whereami */,
+				5A480D8E172F58220028A8FF /* Frameworks */,
+				5A480D8D172F58220028A8FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A480D8D172F58220028A8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A480D8C172F58220028A8FF /* Whereami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A480D8E172F58220028A8FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A480DB4172F94FF0028A8FF /* MapKit.framework */,
+				5A480DB2172F58A50028A8FF /* CoreLocation.framework */,
+				5A480D8F172F58220028A8FF /* UIKit.framework */,
+				5A480D91172F58220028A8FF /* Foundation.framework */,
+				5A480D93172F58220028A8FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A480D95172F58220028A8FF /* Whereami */ = {
+			isa = PBXGroup;
+			children = (
+				5A480D9E172F58220028A8FF /* KCAppDelegate.h */,
+				5A480D9F172F58220028A8FF /* KCAppDelegate.m */,
+				5A480DA7172F58220028A8FF /* KCViewController.h */,
+				5A480DA8172F58220028A8FF /* KCViewController.m */,
+				5A480DAA172F58220028A8FF /* KCViewController.xib */,
+				5A480D96172F58220028A8FF /* Supporting Files */,
+			);
+			path = Whereami;
+			sourceTree = "<group>";
+		};
+		5A480D96172F58220028A8FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A480D97172F58220028A8FF /* Whereami-Info.plist */,
+				5A480D98172F58220028A8FF /* InfoPlist.strings */,
+				5A480D9B172F58220028A8FF /* main.m */,
+				5A480D9D172F58220028A8FF /* Whereami-Prefix.pch */,
+				5A480DA1172F58220028A8FF /* Default.png */,
+				5A480DA3172F58220028A8FF /* Default@2x.png */,
+				5A480DA5172F58220028A8FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A480D8B172F58220028A8FF /* Whereami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A480DAF172F58220028A8FF /* Build configuration list for PBXNativeTarget "Whereami" */;
+			buildPhases = (
+				5A480D88172F58220028A8FF /* Sources */,
+				5A480D89172F58220028A8FF /* Frameworks */,
+				5A480D8A172F58220028A8FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whereami;
+			productName = Whereami;
+			productReference = 5A480D8C172F58220028A8FF /* Whereami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A480D84172F58220028A8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Karen Cate Arabit";
+			};
+			buildConfigurationList = 5A480D87172F58220028A8FF /* Build configuration list for PBXProject "Whereami" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A480D83172F58220028A8FF;
+			productRefGroup = 5A480D8D172F58220028A8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A480D8B172F58220028A8FF /* Whereami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A480D8A172F58220028A8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A480D9A172F58220028A8FF /* InfoPlist.strings in Resources */,
+				5A480DA2172F58220028A8FF /* Default.png in Resources */,
+				5A480DA4172F58220028A8FF /* Default@2x.png in Resources */,
+				5A480DA6172F58220028A8FF /* Default-568h@2x.png in Resources */,
+				5A480DAC172F58220028A8FF /* KCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A480D88172F58220028A8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A480D9C172F58220028A8FF /* main.m in Sources */,
+				5A480DA0172F58220028A8FF /* KCAppDelegate.m in Sources */,
+				5A480DA9172F58220028A8FF /* KCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A480D98172F58220028A8FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A480D99172F58220028A8FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A480DAA172F58220028A8FF /* KCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A480DAB172F58220028A8FF /* en */,
+			);
+			name = KCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A480DAD172F58220028A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A480DAE172F58220028A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A480DB0172F58220028A8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami/Whereami-Prefix.pch";
+				INFOPLIST_FILE = "Whereami/Whereami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A480DB1172F58220028A8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Whereami/Whereami-Prefix.pch";
+				INFOPLIST_FILE = "Whereami/Whereami-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A480D87172F58220028A8FF /* Build configuration list for PBXProject "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A480DAD172F58220028A8FF /* Debug */,
+				5A480DAE172F58220028A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A480DAF172F58220028A8FF /* Build configuration list for PBXNativeTarget "Whereami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A480DB0172F58220028A8FF /* Debug */,
+				5A480DB1172F58220028A8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A480D84172F58220028A8FF /* Project object */;
+}
